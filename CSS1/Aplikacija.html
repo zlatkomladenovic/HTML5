@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Апликација</title>
+</head>
+<body>
+	<table border="5" width="100%">
+		<th align="center" colspan="4"><h1>Апликација за вработување</h1></th>
+		<tr>
+			<td><h2>Лични информации</h2></td>
+			<td>
+				<label for="Име"><b>Име</b></label><br>
+			<input type="text" id="Име" name="Име" required><br>
+			<br>
+				<label for="Презиме"><b>Презиме</b></label><br>
+			<input type="text" id="Презиме" name="Презиме" required><br>
+			<br>
+			<br>
+			</td>
+			<td>
+				<label for="Пол"><b>Пол</b></label><br>
+			<br>
+		<label for="M">M</label>
+			<input type="radio" id="M" name="M"><br>
+			<br>
+		<label for="Ж">Ж</label>
+			<input type="radio" id="Ж" name="Ж"><br>
+			<br>
+			<br>
+			</td>
+			<td>
+				<label for="birth"><b>Дата на раѓање</b></label><br>
+			<br>
+			<input type="date" id="birth" name="birth" required><br>
+			<br>
+			<br>
+			</td>
+		</tr>
+
+		<tr>
+			<td><h2>Контакт информации</h2></td>
+			<td>
+				<label for="country"><b>Место на живеење</b></label><br>
+			<br>
+			<select name="country" id="country">
+				<option value="mk">Македонија</option>
+				<option value="sr">Србија</option>
+				<option value="bg">Бугарија</option>
+				<option value="hr">Хрватска</option>
+			</select><br>
+			<br>
+			<br>
+			</td>
+			<td>
+				<label for="email"><b>Емаил</b></label><br>
+			<br>
+			<input type="email" id="email" name="email"><br>
+			<br>
+			<br>
+			</td>
+			<td>
+				<label for="tel"><b>Контакт телефон</b></label><br>
+			<br>
+			<input type="tel" id="tel" name="tel"><br>
+			<br>
+			<br>
+			</td>
+		</tr>
+
+		<tr>
+			<td><h2>Вештини и образование</h2></td>
+			<td>
+				<label for="edu"><b>Образование</b></label><br>
+			<br>
+			<input type="checkbox" id="ССС" name="edu" /> ССС<br>
+			<input type="checkbox" id="ВСС" name="edu" /> ВСС<br>
+			<br>
+			<br>
+			</td>
+			<td colspan="2">
+				<label for="vestini"><b>Вештини</b></label><br><br>
+			<textarea rows="7" cols="70">Набројте кои технички вештини ги поседувате и споделете дел од искуството поврзано со истите
+			</textarea><br>
+			<br>
+			<br>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="5"><h2>Датум на пријава</h2>
+				<label for="data na popolnuvanje"></label><br>
+			<br>
+			<input type="date" id="data na popolnuvanje" name="data na popolnuvanje"><br>
+			<br>
+			<br>
+			</td>
+
+		<tr align="right">
+			<td colspan="5"><br><br>
+				<button><b>Испрати</b></button>
+				<br>
+				<br>
+			</td>
+		</tr>
+		</tr>
+	</table>
+</body>
+</html>
