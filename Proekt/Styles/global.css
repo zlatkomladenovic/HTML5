@@ -9,57 +9,62 @@ body{
 	padding: 0px;
 }
 
-section.splash{
-	width: 100%;
-	height: 605px;
-	background-color: #2f3030;
-	color: #fff;
-}
+/*start of splash section*/
+	section.splash{
+		width: 100%;
+		height: 605px;
+		background-color: #2f3030;
+		color: #fff;
+	}
 
-section.splash span{
-	font-size: 16px; 
-	font-family: 'Lato', sans-serif;
-	display: block;
-	text-align: center;
-}
+	section.splash span{
+		font-size: 16px; 
+		font-family: 'Lato', sans-serif;
+		display: block;
+		text-align: center;
+	}
 
-section.splash h1{
-	font-size: 50px;
-	text-align: center;
-	text-transform: uppercase;
-	font-family: 'Lato', sans-serif;
-	margin: 34px auto;
-}
+	section.splash h1{
+		font-size: 50px;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: 'Lato', sans-serif;
+		margin: 34px auto;
+	}
 
-section.splash a{
-	color: #fff;
-	font-family: 'Lato', sans-serif;
-	text-decoration: none;
-	display: block;
-	width: 240px;
-	height: 50px;
-	border: 1px solid #fff;
-	font-size: 14px;
-	text-transform: uppercase;
-	text-align: center;
-	box-sizing: border-box;
-	padding-top: 15px;
-	margin: 0px auto;
-}
+	section.splash a{
+		color: #fff;
+		font-family: 'Lato', sans-serif;
+		text-decoration: none;
+		display: block;
+		width: 240px;
+		height: 50px;
+		border: 1px solid #fff;
+		font-size: 14px;
+		text-transform: uppercase;
+		text-align: center;
+		box-sizing: border-box;
+		padding-top: 15px;
+		margin: 0px auto;
+	}
+/*end of splash section*/
 
-span.greeting{
-	padding-top: 161px;
-}
+/*start of span*/
+	span.greeting{
+		padding-top: 161px;
+	}
 
-span.slogan{
-	margin-bottom: 78px;
-}
+	span.slogan{
+		margin-bottom: 78px;
+	}
+/*end of span*/
 
-nav.main{
-	width: 100%;
-	height: 109px;
-	text-align: center;
-}
+/*start of navigation*/
+	nav.main{
+		width: 100%;
+		height: 109px;
+		text-align: center;
+	}
 
 	nav.main a{
 		font-size: 14px;
@@ -84,3 +89,151 @@ nav.main{
 		font-size: 40px;
 		margin: 32px 0px 0px 0px;
 	}
+/*end of navigation*/
+
+/*start of content section*/
+	section.content{
+		max-width: 100%;
+		height: 435px;
+		background-color: #edf1f2;
+		color: #000000;
+		padding: 60px;
+		display: block;
+	}
+
+	section.content h2{
+		font-family: 'Lato', sans-serif;
+		font-size: 44px;
+		text-align: center;
+	}
+
+	section.content p{
+		font-size: 14px;
+		color: #7f8c8d;
+		font-family: 'Lato', sans-serif;
+		padding: 75px;
+		text-align: center;
+	}
+
+	section.content ul{
+		max-width: 100%;
+		padding: 80px;
+		font-size: 14px;
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+	}
+
+	section.content li{
+		display: inline-block;
+	}
+
+	section.content a{
+		text-decoration: none;
+		color: #000000;
+		margin: 10px;
+	}
+
+	section.content a:hover{
+		color: #2980b9;
+	} 
+
+	section.content a span{
+		font-size: 18px;
+		margin-top: -40px;
+	}
+/*end of content section*/
+
+/*start of clients section*/
+	section.clients{
+		max-width: 100%;
+		height: 465px;
+		padding: 83px;
+		text-align: center;
+		display: block;
+	}
+
+	section.clients h2{
+		text-transform: none;
+		font-size: 44px;
+		margin: 34px auto;
+		font-family: 'Lato', sans-serif;
+	}
+
+	section.clients p{
+		max-width: 100%;
+		padding: 75px; 
+		text-transform: none;
+		text-align: center;
+	}
+
+	section.clients ul{
+		max-width: 100%;
+		padding: 75px;
+		font-size: 25px;
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+	}
+
+	section.clients li{
+		display: inline-block;
+	}
+
+	section.clients a{
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #000000;
+		display: inline-block;
+		margin: 10px;
+	}
+
+	section.clients a:hover{
+		color: #2980b9;
+	}
+/*end of clients section*/
+
+/*start of footer section*/
+	section.footer{
+	max-width: 100%;
+	height: 60px;
+	background-color: #000000;
+	margin-top: 96px;
+	display: block;
+	}
+
+	section.footer ul{
+		max-width: 100%;
+		font-size: 14px;
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+		float: left;
+		margin-left: -55px;
+		margin-bottom: 0px;
+		margin-top: 20px;
+	}
+
+	section.footer li{
+		display: inline-block;
+	}
+
+	section.footer a{
+		text-decoration: none;
+		text-transform: capitalize;
+		color: #7f8c8d;
+		margin: 3px;
+	}
+
+	section.footer a:hover{
+		color: #2980b9;
+	}
+
+	section.footer p{
+		font-size: 12px;
+		font-family: 'Lato', sans-serif;
+		float: right;
+		margin-left: 55px;
+		margin-right: 0px;
+		margin-top: 17px;
+		text-align: center;
+		text-transform: none;
+	}
+/*end of footer section*/
