@@ -194,7 +194,7 @@ body{
 /*start of footer section*/
 	section.footer{
 	max-width: 100%;
-	height: 60px;
+	height: 61px;
 	background-color: #000000;
 	margin-top: 96px;
 	display: block;
@@ -206,9 +206,9 @@ body{
 		text-align: center;
 		font-family: 'Lato', sans-serif;
 		float: left;
-		margin-left: -40px;
+		margin-left: -55px;
+		margin-top: 5px;
 		margin-bottom: 0px;
-		margin-top: 20px;
 	}
 
 	section.footer li{
@@ -219,7 +219,7 @@ body{
 		text-decoration: none;
 		text-transform: capitalize;
 		color: #7f8c8d;
-		margin: 3px;
+		margin: 21px;
 	}
 
 	section.footer a:hover{
