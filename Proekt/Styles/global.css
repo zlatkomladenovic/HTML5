@@ -206,7 +206,7 @@ body{
 		text-align: center;
 		font-family: 'Lato', sans-serif;
 		float: left;
-		margin-left: -55px;
+		margin-left: -40px;
 		margin-bottom: 0px;
 		margin-top: 20px;
 	}
@@ -227,6 +227,7 @@ body{
 	}
 
 	section.footer p{
+		color: #7f8c8d;
 		font-size: 12px;
 		font-family: 'Lato', sans-serif;
 		float: right;
