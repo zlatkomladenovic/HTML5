@@ -1,0 +1,36 @@
+div.flat{
+	width: 460px;
+	height: 200px;
+	background-color: #a0d468;
+	border-radius: 5px;
+}
+
+button.left{
+	float: left;
+	margin: 91px 31px 91px 20px;
+	border: none;
+	background-color: #a0d468;
+	color: #fefefe;
+}
+
+img{
+	margin-top: 60px;
+	display: inline-block;
+}
+
+span{
+	float: left;
+	display: inline-block;
+	margin-top: -120px;
+	margin-right: 80px;
+	padding-left: 190px;
+	color: #e9f7e0;
+}
+
+button.right{
+	float: right;
+	margin: -55px 31px 91px 20px;
+	border: none;
+	background-color: #a0d468;
+	color: #fefefe;
+}

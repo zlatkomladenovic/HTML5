@@ -58,5 +58,32 @@ div.calendar{
 	 div.calendar .dates{
 	 	width: 85%;
 	 	margin: 0px auto;
-	 	height: 100px;
-	 }
+	 	text-align: center;
++		line-height: 28px;
++	}
++
++		div.calendar div.dates ul.weekdays {
++			width: 100%;
++			list-style: none;
++			color: #b44331;
++			padding: 0px;
++			margin: 0px;
++		}
++
++			div.calendar div.dates ul.weekdays li{
++				float: left;
++				width: calc(100% / 7);
++			}
++
++		div.calendar div.dates ul.month-dates {
++			width: 100%;
++			list-style: none;
++			color: #fff;
++			padding: 0px;
++			margin: 0px;
++		}
++
++			div.calendar div.dates ul.month-dates li{
++				float: left;
++				width: calc(100% / 7);
++			} 
