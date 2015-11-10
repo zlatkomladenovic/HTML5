@@ -79,7 +79,7 @@ header{
 	height: 58px;
 	float: left;
 	background-image: url('../img/logo.png');
-	margin: 20px 0px 0px 0px;
+	margin: 3px 50px 0px 0px;
 	padding: 0;
 }
 
@@ -110,4 +110,8 @@ header{
 	text-transform: uppercase;
 	color: #000;
 	opacity: .7;
+}
+
+video{
+	margin: 0px 237px;
 }
