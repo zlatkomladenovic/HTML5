@@ -1,0 +1,262 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	background-color: rgba(0, 0, 0, .7);
+	position: fixed;
+}
+
+header h2{
+	color: #ffffff;
+	font-family: sans-serif;
+	text-indent: 50px;
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+	font-size: 35px;
+	opacity: .6;
+}
+
+header h2 a{
+	text-decoration: none;
+	color: #ffffff;
+	opacity: .6;
+}
+
+section.splash{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+section.splash ul{
+	list-style: none;
+	float: left;
+	color: #ffffff;
+	opacity: .6;
+	position: fixed;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+section.splash ul li{
+	position: relative;
+	float: left;
+	margin-right: 60px;
+	left: 350px; 
+	top: 5px;
+}
+
+section.splash ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	opacity: .6;
+}
+
+div.photography{
+	position: fixed;
+	top: 120px;
+	left: 50px;
+}
+
+div.photography img{
+	width: 320px;
+	height: 180px;
+}
+
+div.photography p.photography a{
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+div.photography h2.block a{
+	text-decoration: none;
+	color: #ffffff;
+	margin-top: -15px;
+	font-size: 28px;
+}
+
+div.analytics{
+	position: fixed;
+	top: 120px;
+	left: 550px;
+}
+
+div.analytics img{
+	width: 320px;
+	height: 180px;
+}
+
+div.analytics p.design a{
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+div.analytics h2.analytics a{
+	color: #ffffff;
+	margin-top: -15px;
+	font-size: 28px;
+	text-decoration: none;
+}
+
+div.ui{
+	float: right;
+	position: fixed;
+	top: 120px;
+	right: 350px;
+}
+
+div.ui img{
+	width: 320px;
+	height: 180px;
+}
+
+div.ui p.ui a{
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+div.ui h2.martian a{
+	color: #ffffff;
+	margin-top: -15px;
+	font-size: 28px;
+	text-decoration: none;
+}
+
+div.mobile{
+	position: fixed;
+	top: 500px;
+	left: 50px;
+}
+
+div.mobile img{
+	width: 320px;
+	height: 180px;
+}
+
+div.mobile p.mobile a{
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+div.mobile h2.grvty a{
+	color: #ffffff;
+	margin-top: -15px;
+	font-size: 28px;
+	text-decoration: none;
+}
+
+div.portfolio{
+	position: fixed;
+	top: 500px;
+	left: 550px;
+}
+
+div.portfolio img{
+	width: 320px;
+	height: 180px;
+}
+
+div.portfolio p.portfolio a{
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+div.portfolio h2.studio a{
+	color: #ffffff;
+	margin-top: -15px;
+	font-size: 28px;
+	text-decoration: none;
+}
+
+div.ice{
+	position: fixed;
+	top: 500px;
+	right: 350px;
+}
+
+div.ice img{
+	width: 320px;
+	height: 180px;
+}
+
+div.ice p.ice a{
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+div.ice h2.pierre a{
+	color: #ffffff;
+	margin-top: -15px;
+	font-size: 28px;
+	text-decoration: none;
+}
+
+footer{
+	width: 100%;
+	height: 120px;
+	background-color: rgba(0, 0, 0, .7);
+	opacity: .6;
+	display: block;
+	bottom: 0px;
+	position: fixed;
+}
+
+footer h2.share{
+	position: relative;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 18px;
+	top: 10px;
+}
+
+footer h2.share a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+div.footer ul{
+	list-style: none;
+	float: left;
+	color: #ffffff;
+	opacity: .6;
+	position: fixed;
+	font-size: 15px;
+	font-family: sans-serif;
+	left: 55px;
+}
+
+div.footer ul li{
+	position: relative;
+	float: left;
+	margin-right: 30px;
+	left: 350px; 
+	top: 5px;
+}
+
+div.footer ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	opacity: .6;
+}
