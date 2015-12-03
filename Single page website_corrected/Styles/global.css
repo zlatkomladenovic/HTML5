@@ -1,0 +1,170 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.main{
+	width: 100%;
+	height: 3232px;
+}
+
+/*start of banner section*/
+div.banner{
+	width: 100%;
+	height: 800px;
+	background-image: url(../assets/images/banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+img.logo{
+	display: block;
+	margin: 0px auto;
+	padding-top: 68px;
+}
+
+h1{
+	color: #ffffff;
+	font-size: 33.35pt;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-family: sans-serif;
+	text-align: center;
+	margin: 78px auto;
+}
+
+h1 span{
+	font-weight: 700;
+}
+
+div.call{
+	margin: -20px auto;
+	display: block;
+	width: 335px;
+	height: 335px;
+	border-radius: 3px;
+	background-color: #ffffff;
+	box-shadow: 0px 2px 1px #c4c4c4;
+}
+
+div.zip{
+	width: 334px;
+	height: 91px;
+	outline: none;
+	padding: 30px 32.8px 0px 32.8px;
+}
+
+div.zip input{
+	width: 265px;
+	height: 36px;
+	border-radius: 3px;
+	text-indent: 15px;
+	color: #c8c3c3;
+	border: 2px groove #c8c3c3;
+}
+
+div.images{
+	width: 335px;
+	height: 87px;
+	margin: -23px auto;
+}
+
+div.call p{
+	font-size: 12.35pt;
+	color: #a19d9d;
+	text-align: center;
+	font-family: sans-serif;
+	margin: 25px auto;
+}
+
+button.press{
+	display: block;
+	width: 192px;
+	height: 45px;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 20px;
+	background-color: #227dd3;
+	text-transform: uppercase;
+	margin: 0px auto;
+	border-radius: 3px;
+}
+/*end of banner section*/
+
+/*start of boxes section*/
+div.boxes{
+	width: 100%;
+	height: 12.3%;
+	background-color: #ffffff;
+	z-index: -1;
+	position: relative;
+}
+
+div.documents{
+	width: 393px;
+	height: 121px;	
+	float: left;
+	top: 170px;
+	left: 198px;
+	position: absolute;
+}
+
+div.documents img.doc{
+	float: left;
+}
+
+div.documents h2{
+	color: #000000;
+	font-family: sans-serif;
+	margin-top: 12px;
+	margin-left: 35px;
+	float: left;
+	font-size: 20pt;
+}
+
+div.documents p{
+	margin-top: -75px;
+	margin-left: 124px;
+	color: #666666;
+	font-size: 12pt;
+	line-height: 23px;
+	font-weight: 500;
+	float: left;
+}
+
+div.photos{
+	width: 393px;
+	height: 128px;
+	margin-top: 164px;
+	margin-left: 75px;
+	margin-right: 0px;
+	margin-bottom: 110px;
+	float: left;
+}
+
+div.photos img.photos{
+	float: left;
+}
+
+div.photos h2{
+	color: #000000;
+	font-family: sans-serif;
+	margin-top: 16px;
+	margin-left: 27px;
+	font-size: 20pt;
+	float: left;
+}
+
+div.photos p{
+	margin-top: -72px;
+	margin-left: 130px;
+	color: #666666;
+	font-size: 12pt;
+	line-height: 23px;
+	font-weight: 500;
+	float: left;
+}
+/*end of boxes section
